@@ -7,7 +7,8 @@
   :url "https://github.com/weavejester/clj-aws-s3"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
-  :repositories [["snapshots" "http://server02:8080/repository/snapshots"] ["releases" "http://server02:8080/repository/internal"]]
+  :repositories [["libs-snapshot" "http://server02.tresata.com:8081/artifactory/libs-snapshot"] ["libs-release" "http://server02.tresata.com:8081/artifactory/libs-release"]]
+  :deploy-repositories [["snapshots" "http://server02.tresata.com:8081/artifactory/oss-libs-snapshot-local"] ["releases" "http://server02.tresata.com:8081/artifactory/oss-libs-release-local"]]
   :dependencies [[org.clojure/clojure "1.2.1"]
                  [com.amazonaws/aws-java-sdk "1.7.15"]
                  [clj-time "0.6.0"]]
