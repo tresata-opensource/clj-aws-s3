@@ -2,7 +2,7 @@
 (cemerick.pomegranate.aether/register-wagon-factory!
   "http" #(org.apache.maven.wagon.providers.http.HttpWagon.))
 
-(defproject clj-aws-s3 "0.3.10-tres-SNAPSHOT"
+(defproject clj-aws-s3 "0.3.10-tres"
   :description "Clojure Amazon S3 library"
   :url "https://github.com/weavejester/clj-aws-s3"
   :license {:name "Eclipse Public License"
